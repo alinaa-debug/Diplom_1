@@ -2,6 +2,7 @@ import pytest
 from praktikum.burger import Burger
 from unittest.mock import MagicMock
 
+
 @pytest.fixture
 def burger():
     return Burger()

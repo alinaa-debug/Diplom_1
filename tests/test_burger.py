@@ -47,6 +47,7 @@ def test_get_receipt(burger, mock_bun, mock_ingredient):
     assert "= filling cheddar slice =" in receipt
     assert "Price: 480.0" in receipt
 
+
 def test_get_receipt_multiple_ingredients(burger, mock_bun):
     burger.set_buns(mock_bun)
     ing1 = MagicMock()
